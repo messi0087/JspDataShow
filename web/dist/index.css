@@ -1,0 +1,99 @@
+html,body{
+    margin:0;
+    min-width: 960px;
+    overflow: hidden;
+    background-color: black;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#map{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.slider{
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 0; 
+    height: 5%;
+    width: 20%;
+    border-radius: 0 0 5px 0;
+}
+
+.slide{
+    z-index: 1;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0% 0%; 
+    height: 90%;
+    width: 30%;
+    border-radius: 0 0 5px 0;
+    display:none;
+}
+
+.dv{
+    z-index: 2;
+    position: absolute;
+    background-color: rgba(124, 124, 124, 1);
+    margin: 0% 0%;
+    height: 100%;
+    width: 30%;
+    border-radius: 0 0 0 0;
+}
+
+.anchorBL{
+    display:none;
+}
+
+#search{
+    margin:0;
+    position: absolute;
+    width:30%;
+    height: 50px;
+    left: 35%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+#searchInput{
+    float: left;
+    margin:0;
+    height: 100%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 10px 0 0 0;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+#searchBut{
+    float: left;
+    margin:0;
+    height: 100%;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0.5;
+    border: none;
+    font-size: 100%;
+}
+
+.dvg{
+    float: left;
+    z-index: 2;
+}

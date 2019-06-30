@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+<display-name>Day42_jdbc_jsp_servlet</display-name>
+<welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+
+</welcome-file-list>
+
+
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>Servlet.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/TestServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Weather_date</servlet-name>
+        <servlet-class>Servlet.Weather_date</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Weather_date</servlet-name>
+        <url-pattern>/Weather_date</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>VehicleType_Date</servlet-name>
+        <servlet-class>Servlet.VehicleType_Date</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VehicleType_Date</servlet-name>
+        <url-pattern>/VehicleType_Date</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Severity_Date</servlet-name>
+        <servlet-class>Servlet.Severity_Date</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Severity_Date</servlet-name>
+        <url-pattern>/Severity_Date</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AccidentTime_Date</servlet-name>
+        <servlet-class>Servlet.AccidentTime_Date</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccidentTime_Date</servlet-name>
+        <url-pattern>/AccidentTime_Date</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>LightingSituation_Date</servlet-name>
+    <servlet-class>Servlet.LightingSituation_Date</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>LightingSituation_Date</servlet-name>
+        <url-pattern>/LightingSituation_Date</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>RoadCondition_Date</servlet-name>
+        <servlet-class>Servlet.RoadCondition_Date</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RoadCondition_Date</servlet-name>
+        <url-pattern>/RoadCondition_Date</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>MapDate</servlet-name>
+        <servlet-class>Servlet.MapDate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MapDate</servlet-name>
+        <url-pattern>/MapDate</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <listener>
+
+        <listener-class>connection.MY</listener-class>
+
+    </listener>
+</web-app>
+

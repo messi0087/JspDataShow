@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="new project:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/new_project_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="new project/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="new project" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.12.jar" />
+          <element id="file-copy" path="D:/360极速浏览器下载/json-lib-2.4&amp;dependencies_jars/json-lib-2.4&amp;dependencies jars/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="D:/360极速浏览器下载/jsonjar_downcc/json.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.9.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.9.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.9.7.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
